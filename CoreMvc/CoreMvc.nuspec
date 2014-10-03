@@ -10,16 +10,17 @@
     <projectUrl>http://github.com/benmccallum/CoreMvc</projectUrl>
     <tags>Core Web ASP.NET MVC Library Extensions Helpers Common</tags>
     <frameworkAssemblies>
-	  <frameworkAssembly assemblyName="Microsoft.CSharp" targetFramework="" />
-	  <frameworkAssembly assemblyName="Microsoft.Web.Infrastructure" targetFramework="" />
+      <frameworkAssembly assemblyName="Microsoft.CSharp" targetFramework="" />
+      <frameworkAssembly assemblyName="Microsoft.Web.Infrastructure" targetFramework="" />
       <frameworkAssembly assemblyName="System" targetFramework="" />
+      <frameworkAssembly assemblyName="System.ComponentModel.DataAnnotations" targetFramework="" />
       <frameworkAssembly assemblyName="System.Web" targetFramework="" />
       <frameworkAssembly assemblyName="System.Web.Helpers" targetFramework="" />
-	  <frameworkAssembly assemblyName="System.Web.Mvc" targetFramework="" />
-	  <frameworkAssembly assemblyName="System.Web.Razor" targetFramework="" />
-	  <frameworkAssembly assemblyName="System.Web.WebPages" targetFramework="" />
-	  <frameworkAssembly assemblyName="System.Web.WebPages.Deployment" targetFramework="" />
-	  <frameworkAssembly assemblyName="System.Web.WebPages.Razor" targetFramework="" />
+      <frameworkAssembly assemblyName="System.Web.Mvc" targetFramework="" />
+      <frameworkAssembly assemblyName="System.Web.Razor" targetFramework="" />
+      <frameworkAssembly assemblyName="System.Web.WebPages" targetFramework="" />
+      <frameworkAssembly assemblyName="System.Web.WebPages.Deployment" targetFramework="" />
+      <frameworkAssembly assemblyName="System.Web.WebPages.Razor" targetFramework="" />
     </frameworkAssemblies>
   </metadata>
 </package>
