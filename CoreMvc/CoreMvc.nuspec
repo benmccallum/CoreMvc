@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$id$</title>
+    <authors>Ben McCallum</authors>
+    <owners>Ben McCallum</owners>
+    <description>A library of core helpers, extensions, constants, enums and other useful things for all ASP.NET MVC projects.</description>
+    <projectUrl>http://github.com/benmccallum/CoreMvc</projectUrl>
+    <tags>Core Web ASP.NET MVC Library Extensions Helpers Common</tags>
+    <frameworkAssemblies>
+	  <frameworkAssembly assemblyName="Microsoft.CSharp" targetFramework="" />
+	  <frameworkAssembly assemblyName="Microsoft.Web.Infrastructure" targetFramework="" />
+      <frameworkAssembly assemblyName="System" targetFramework="" />
+      <frameworkAssembly assemblyName="System.Web" targetFramework="" />
+      <frameworkAssembly assemblyName="System.Web.Helpers" targetFramework="" />
+	  <frameworkAssembly assemblyName="System.Web.Mvc" targetFramework="" />
+	  <frameworkAssembly assemblyName="System.Web.Razor" targetFramework="" />
+	  <frameworkAssembly assemblyName="System.Web.WebPages" targetFramework="" />
+	  <frameworkAssembly assemblyName="System.Web.WebPages.Deployment" targetFramework="" />
+	  <frameworkAssembly assemblyName="System.Web.WebPages.Razor" targetFramework="" />
+    </frameworkAssemblies>
+  </metadata>
+</package>
