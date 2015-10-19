@@ -1,7 +1,21 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreMvc", "CoreMvc\CoreMvc.csproj", "{AF6FF503-CFBD-4574-BFEA-BDE7EE8D6A13}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".content", ".content", "{EED4FE2B-8F21-49D2-BB8D-D6851771A20D}"
+	ProjectSection(SolutionItems) = preProject
+		CoreMvc\readme.txt = CoreMvc\readme.txt
+		CoreMvc\Content\web.config.install.xdt = CoreMvc\Content\web.config.install.xdt
+		CoreMvc\Content\web.config.uninstall.xdt = CoreMvc\Content\web.config.uninstall.xdt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{1E003BC8-997F-444F-B806-A910197F48EE}"
+	ProjectSection(SolutionItems) = preProject
+		CoreMvc\CoreMvc.nuspec = CoreMvc\CoreMvc.nuspec
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

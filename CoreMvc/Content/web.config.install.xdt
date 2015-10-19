@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
+  <appSettings xdt:Transform="InsertIfMissing">
+    <add key="CoreMvc.AuthorizedIpAddresses" value="" xdt:Transform="InsertIfMissing" />
+    <add key="CoreMvc.AdminUsername" value="" xdt:Transform="InsertIfMissing" />
+    <add key="CoreMvc.AdminPassword" value="" xdt:Transform="InsertIfMissing" />
+  </appSettings>
+</configuration>

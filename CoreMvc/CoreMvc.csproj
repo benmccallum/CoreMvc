@@ -37,6 +37,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Helpers">
       <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.2\lib\net45\System.Web.Helpers.dll</HintPath>
@@ -65,9 +66,14 @@
     <Reference Include="Microsoft.CSharp" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Attributes\BasicAuthorizeAttribute.cs" />
+    <Compile Include="Attributes\IpAddressAuthorizeAttribute.cs" />
     <Compile Include="Attributes\IsTrueAttribute.cs" />
     <Compile Include="Helpers\HtmlHelperExtensions.cs" />
+    <Compile Include="Helpers\IpAddressHelper.cs" />
+    <Compile Include="SecurityProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sys\Web\Mvc\HttpBasicUnauthorizedResult.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

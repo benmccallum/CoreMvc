@@ -13,6 +13,7 @@
       <frameworkAssembly assemblyName="Microsoft.CSharp" targetFramework="" />
       <frameworkAssembly assemblyName="Microsoft.Web.Infrastructure" targetFramework="" />
       <frameworkAssembly assemblyName="System" targetFramework="" />
+      <frameworkAssembly assemblyName="System.Configuration" targetFramework="" />
       <frameworkAssembly assemblyName="System.ComponentModel.DataAnnotations" targetFramework="" />
       <frameworkAssembly assemblyName="System.Web" targetFramework="" />
       <frameworkAssembly assemblyName="System.Web.Helpers" targetFramework="" />
@@ -23,4 +24,8 @@
       <frameworkAssembly assemblyName="System.Web.WebPages.Razor" targetFramework="" />
     </frameworkAssemblies>
   </metadata>
+  <files>
+    <file src="Content\*.xdt" target="content" />
+    <file src="readme.txt" target="" />
+  </files>
 </package>
